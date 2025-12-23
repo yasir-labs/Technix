@@ -15,8 +15,8 @@ const post_data = [
         upload_time: "3 min Read",
         title: <>The whimsically named Egg Canvas brainch</>,
         description: <>There are many variations of passages of Lorem Ipsum available, but majority have suffered
-        teration in some form, by injected humour, or randomised words which don't look even slight
-        believable. If you are going to use a passage of Lorem Ipsum.</>,        
+            teration in some form, by injected humour, or randomised words which don't look even slight
+            believable. If you are going to use a passage of Lorem Ipsum.</>,
     },
     {
         id: 2,
@@ -27,8 +27,8 @@ const post_data = [
         upload_time: "10 min Read",
         title: <>How to Clean Your Home Faster More Efficiently</>,
         description: <>There are many variations of passages of Lorem Ipsum available, but majority have suffered
-        teration in some form, by injected humour, or randomised words which don't look even slight
-        believable. If you are going to use a passage of Lorem Ipsum.</>,        
+            teration in some form, by injected humour, or randomised words which don't look even slight
+            believable. If you are going to use a passage of Lorem Ipsum.</>,
     },
     {
         id: 3,
@@ -39,8 +39,8 @@ const post_data = [
         upload_time: "23 min Read",
         title: <>Four Ways a Workplace Makes Employees Happy</>,
         description: <>There are many variations of passages of Lorem Ipsum available, but majority have suffered
-        teration in some form, by injected humour, or randomised words which don't look even slight
-        believable. If you are going to use a passage of Lorem Ipsum.</>,        
+            teration in some form, by injected humour, or randomised words which don't look even slight
+            believable. If you are going to use a passage of Lorem Ipsum.</>,
     },
 
 

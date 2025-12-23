@@ -3,7 +3,7 @@ import HeroArea from "./hero-area";
 import OfferArea from "./offer-area";
 import BusinessArea from "./business-area";
 import CounterArea from "./counter-area";
-import IndustryArea from "../../../common/industry-area";
+import IndustryArea from "../../common/industry-area";
 import FeatureArea from "./feature-area";
 import BrandArea from "./brand-area";
 import BlogArea from "./blog-area";
