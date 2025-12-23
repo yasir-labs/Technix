@@ -3,8 +3,8 @@ import React from 'react';
 import ContactArea from './contact-area';
 import GoogleMap from './google-map';
 import FooterContact from '@/src/layout/footers/footer-contact';
-import FooterThree from '@/src/layout/footers/footer-3';
 import HeaderTwo from '@/src/layout/headers/header-2';
+import FooterTwo from '@/src/layout/footers/footer-2';
 
 const Contact = () => {
     return (
@@ -16,7 +16,7 @@ const Contact = () => {
                 <GoogleMap />
                 <FooterContact contact_style={true} />
             </main>
-            <FooterThree />
+            <FooterTwo />
         </>
     );
 };

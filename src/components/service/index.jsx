@@ -6,8 +6,8 @@ import IndustryArea from "@/src/common/industry-area";
 import BrandArea from "@/src/common/brand-area";
 import BlogArea from "@/src/common/blog-area";
 import FooterContact from "@/src/layout/footers/footer-contact";
-import FooterThree from "@/src/layout/footers/footer-3";
 import HeaderTwo from "@/src/layout/headers/header-2";
+import FooterTwo from "@/src/layout/footers/footer-2";
 
 const Sevice = () => {
   return (
@@ -22,7 +22,7 @@ const Sevice = () => {
         <BlogArea service={true} />
         <FooterContact />
       </main>
-      <FooterThree />
+      <FooterTwo />
     </>
   );
 };

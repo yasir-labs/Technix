@@ -2,8 +2,8 @@ import Breadcrumb from "@/src/common/breadcrumb/breadcrumb";
 import React from "react";
 import BlogDetailsPostbox from "./blog-details-postbox";
 import FooterContact from "@/src/layout/footers/footer-contact";
-import FooterThree from "@/src/layout/footers/footer-3";
 import HeaderTwo from "@/src/layout/headers/header-2";
+import FooterTwo from "@/src/layout/footers/footer-2";
 
 const BlogDetails = () => {
   return (
@@ -14,7 +14,7 @@ const BlogDetails = () => {
         <BlogDetailsPostbox />
         <FooterContact bg_style={true} />
       </main>
-      <FooterThree />
+      <FooterTwo />
     </>
   );
 };
