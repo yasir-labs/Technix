@@ -1,14 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 
-import  business_shape_1 from "@assets/img/business/shape-1.png";
-import  business_shape_2 from "@assets/img/business/shape-2.png";
-import  business_shape_3 from "@assets/img/business/shape-3.png";
-import  business_shape_4 from "@assets/img/business/shape-4.png" ;
-import  business_img_1 from "@assets/img/business/img-1.jpg" ;
-import  business_img_2 from "@assets/img/business/img-2.png" ;
-import  business_img_3 from "@assets/img/business/img-3.png" ;
-import  business_user from "@assets/img/business/user.png" ;
+import business_shape_1 from "@assets/img/business/shape-1.png";
+import business_shape_2 from "@assets/img/business/shape-2.png";
+import business_shape_3 from "@assets/img/business/shape-3.png";
+import business_shape_4 from "@assets/img/business/shape-4.png";
+import business_img_1 from "@assets/img/business/img-1.jpg";
+import business_img_2 from "@assets/img/business/img-2.png";
+import business_img_3 from "@assets/img/business/img-3.png";
+import business_user from "@assets/img/business/user.png";
 
 import AngleArrow from '@/src/svg/angle-arrow';
 import LineArrowTwo from '@/src/svg/line-arrow-2';
@@ -18,9 +18,9 @@ import Link from 'next/link';
 import LineArrowSix from '@/src/svg/line-arrow-6';
 
 const BusinessArea = () => {
-    return (
-        <>
-            <section className="tp-business-area p-relative pt-110 pb-115">
+   return (
+      <>
+         <section className="tp-business-area p-relative pt-110 pb-115">
             <div className="tp-business-shape">
                <Image className="shape-1 d-none d-lg-block" src={business_shape_1} alt="theme-pure" />
                <Image className="shape-2" src={business_shape_2} alt="theme-pure" />
@@ -52,24 +52,24 @@ const BusinessArea = () => {
                   <div className="col-lg-6">
                      <div className="tp-business-title-wrapper">
                         <span className="tp-section-title__pre">
-                           feature <span className="title-pre-color">IT Solutions</span> 
+                           feature <span className="title-pre-color">IT Solutions</span>
                            <AngleArrow />
                         </span>
                         <h3 className="tp-section-title">Best It & Technology Agency
                            For Your Business
-                           <span className="title-left-shape"> 
+                           <span className="title-left-shape">
                               <LineArrowTwo />
                            </span>
                         </h3>
-                        <p>No matter how much you know about a particular medical healthcare <br /> 
-                        professional, you always need to be thinking about what’s?</p>
+                        <p>No matter how much you know about a particular medical healthcare <br />
+                           professional, you always need to be thinking about what’s?</p>
                      </div>
                      <div className="row">
 
                         <div className="col-lg-6 col-md-6">
                            <div className="tp-business-box mb-30">
                               <div className="tp-business-box-title d-flex align-items-center">
-                                 <span> 
+                                 <span>
                                     <CodeIcon />
                                  </span>
                                  <h4 className="tp-business-title">Custom shortcodes</h4>
@@ -81,8 +81,8 @@ const BusinessArea = () => {
                         <div className="col-lg-6 col-md-6">
                            <div className="tp-business-box mb-30">
                               <div className="tp-business-box-title d-flex align-items-center">
-                                 <span> 
-                                    <TechIcon />                                  
+                                 <span>
+                                    <TechIcon />
                                  </span>
                                  <h4 className="tp-business-title">IT Consultant & Tech</h4>
                               </div>
@@ -95,8 +95,8 @@ const BusinessArea = () => {
                            <Image className="d-none d-xl-block" src={business_user} alt="theme-pure" />
                            <i>
                               5m+ Customer
-                              <span> 
-                                 <LineArrowSix /> 
+                              <span>
+                                 <LineArrowSix />
                               </span>
                            </i>
                         </div>
@@ -106,8 +106,8 @@ const BusinessArea = () => {
                </div>
             </div>
          </section>
-        </>
-    );
+      </>
+   );
 };
 
 export default BusinessArea;

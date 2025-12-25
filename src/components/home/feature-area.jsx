@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -9,36 +9,36 @@ import feature_img_3 from "@assets/img/feature/home-2/img-1.jpg";
 
 
 
-  const feature_slide_data = [
+const feature_slide_data = [
     {
-        id: 1, 
+        id: 1,
         img: feature_img_1,
         subtitle: "Project no:2",
         title: "Artificial intelligence",
     },
     {
-        id: 2, 
+        id: 2,
         img: feature_img_2,
         subtitle: "Project no:3",
         title: "Modern Web Design",
     },
     {
-        id: 3, 
+        id: 3,
         img: feature_img_3,
         subtitle: "Project no:1",
         title: "App Design",
     },
-  ]
+]
 
 const FeatureArea = () => {
 
     const setting = {
-        type   : 'loop',
+        type: 'loop',
         pagination: false,
         arrows: false,
         focus: 'center',
         perPage: 1,
-        gap:'30px',
+        gap: '30px',
         padding: '25%',
         throttle: 300,
         breakpoints: {
@@ -47,15 +47,15 @@ const FeatureArea = () => {
             },
             765: {
                 padding: '12%',
-                gap:'25px',
+                gap: '25px',
             },
             575: {
                 arrows: false,
                 padding: '0%',
             },
-          },
-      }
-   const splideRef = useRef(null); 
+        },
+    }
+    const splideRef = useRef(null);
 
 
     return (
@@ -64,11 +64,11 @@ const FeatureArea = () => {
                 <div className="container-fluid gx-0">
                     <div className="row gx-0">
                         <div className="col-lg-12">
-                            <Splide options={setting} ref={splideRef} 
-                            className="tp-feature-active-2 pt-35 splide wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s"> 
-                                    {feature_slide_data.map((item, i)  =>
-                                        <SplideSlide key={i}>
-                                            <div className="tp-feature-thumb-2 w-img p-relative">
+                            <Splide options={setting} ref={splideRef}
+                                className="tp-feature-active-2 pt-35 splide wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                {feature_slide_data.map((item, i) =>
+                                    <SplideSlide key={i}>
+                                        <div className="tp-feature-thumb-2 w-img p-relative">
                                             <Link href="/portfolio-details">
                                                 <Image src={item.img} alt="theme-pure" />
                                             </Link>
@@ -85,9 +85,9 @@ const FeatureArea = () => {
                                                     </Link>
                                                 </div>
                                             </div>
-                                            </div>
-                                        </SplideSlide>
-                                    )} 
+                                        </div>
+                                    </SplideSlide>
+                                )}
                             </Splide>
                         </div>
                     </div>

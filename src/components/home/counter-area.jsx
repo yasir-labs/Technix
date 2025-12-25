@@ -32,20 +32,20 @@ const counter_data = [
   },
 ];
 
-const CounterArea = ({about}) => {
+const CounterArea = ({ about }) => {
   return (
-    <> 
+    <>
       <section className={`tp-counter-area ${about ? "p-relative counter-breadcrumb pb-100" : "pb-85"}`}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="tp-counter-box"
-                style={{backgroundImage: `url(/assets/img/fun-fact/counter-bg.png)`}}>
+                style={{ backgroundImage: `url(/assets/img/fun-fact/counter-bg.png)` }}>
                 <div className="row">
                   {counter_data.map((item, i) => (
                     <div key={i} className="col-lg-3 col-md-6 col-sm-6">
                       <div className={`tp-counter-wrapper ${item?.border} text-center`}>
-                        <h3 className="counter-title"> 
+                        <h3 className="counter-title">
                           <span
                             data-purecounter-duration="4"
                             data-purecounter-end="560"
@@ -73,4 +73,3 @@ const CounterArea = ({about}) => {
 };
 
 export default CounterArea;
- 
